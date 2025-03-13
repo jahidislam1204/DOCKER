@@ -1,0 +1,21 @@
+// To check all the existing networks
+docker network ls
+
+  // Create a network
+  docker network create Network_name
+
+
+Docker use some driver to enable containers to communicate with each other and the outside world
+  1. bridge
+  2. host
+  3. overly
+  4. ipvlan
+  5. none
+
+
+// create a network using bridge driver
+
+docker network create --driver bridge Network_name
+
+  
+  
