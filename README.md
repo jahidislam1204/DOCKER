@@ -6,8 +6,9 @@ This is my learning path of docker. 🚀
 These all topics are my first step into using **DOCKER** for containerization.
 
 ## 🛠️ Topics
-- docker basic command
+-What is docker, docker image, docker container
 - difference between docker and vm
+- docker basic command
 - port-binding
 - docker network
 - docker file
