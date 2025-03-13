@@ -1,0 +1,12 @@
+// To check all the information abou the container 
+
+docker log container_name
+
+... docker log command will show you the complete information about the container, and here you can see the problem actually what and where the problem occurs.
+
+
+// To run commands inside the container
+
+docker exec -it running_container_id /bin/bash
+
+... docker exec command will execute commmands in the container's terminal 
