@@ -1,12 +1,16 @@
-# 🐳 My First Docker Project
+# 🐳 Some docker topics
 
-This is my first Docker file. 🚀
+This is my learning path of docker. 🚀
 
 ## 📌 Description
-This project is my first step into using **Docker** for containerization.
+These all topics are my first step into using **DOCKER** for containerization.
 
-## 🛠️ Usage
-To build and run the Docker container, use:
-```sh
-docker build -t my-first-docker .
-docker run -d my-first-docker
+## 🛠️ Topics
+- docker basic command
+- difference between docker and vm
+- port-binding
+- docker network
+- docker file
+- docker compose
+- docker volumes
+- troubleshooting 
