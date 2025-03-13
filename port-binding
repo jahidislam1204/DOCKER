@@ -1,0 +1,8 @@
+In Docker, port binding, also known as port mapping, allows you to connect a port on your host machine to a port within a container, enabling external access to services running inside the container
+
+
+Example : 
+let our host port is 8080. we want to binding my sql port, which port is 3306
+for this condition follow the bellow command
+
+docker run -p8080:3306 Image_Name
