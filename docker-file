@@ -1,0 +1,20 @@
+Docker file is a blue print who define the way to build docker image and container.
+  docker file will have some instruction which is the direction of dockerizing application.
+
+
+
+FROM: It pull the base image from the docker hub.
+  FROM BASE_IMAGE. 
+
+WORKDIR: all command that is run in the docker file will be stored in the workdir.
+
+COPY: This is used for copying file or folder from host machine to image
+
+RUN: This will run all instruction one by one inside the docker image
+
+CMD: This will run the docker file.
+
+EXPOSE: We will expose our port by using EXPOSE.
+
+ENV: We declare the required environment using ENV
+  
