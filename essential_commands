@@ -1,0 +1,58 @@
+Here’s a simple README file for a GitHub repository that includes instructions on checking the Docker version:  
+
+---
+
+// Docker Version Check  
+ docker -v
+
+// Download an image from docker hub
+docker pull hello-world
+
+// To check the docker images in local host machine
+docker images
+
+//To run a container from docker images
+ docker run hello-world
+
+// To check running container
+ docker ps
+
+//To check all container (running and stop)
+ docker ps -a
+
+
+*** suppose I need to install an ubuntu container***
+
+docker run -it ubuntu
+// here -it --> interactive modes
+
+//to check the container
+docker ps
+
+// to stop running container
+docker stop container_id/name
+
+// to start a container
+docker start container_id/name
+
+
+// to delete a container from local host machine
+docker rm container_id/name
+
+// to delete a docker images from local host machine 
+docker rmi container_id/name
+
+// pull an image from docker hub and run a container from this image
+docker pull image_name
+
+// to run a container for specific time
+docker run image_name sleep 200
+// here 200 means 200 seconds.
+
+// Docker environment
+ docker run -d -e MYSQL_ROOT_PASSWORD=jahid mysql
+ ..... MYSQL_ROOT_PASSWORD=jahid is an environment for creating a password
+ ..... -d means  detached mode, allows containers to run in the background, freeing up your terminal for other tasks, without requiring direct input or output
+
+
+
