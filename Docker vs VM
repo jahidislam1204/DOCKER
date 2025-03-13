@@ -1,0 +1,7 @@
+Difference between docker and Virtual machine
+
+Docker use host os kernel to virtualize the application layer.
+Where a virtual machine use hardware to virtualize the application layer and kernel.
+
+docker light weight, smaller and faster
+vm heavy weight, larger and slower than docker
