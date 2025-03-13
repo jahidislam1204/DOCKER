@@ -1,0 +1,11 @@
+What is docker?
+
+Docker is an open-source platform that allows you to develop, package, and run applications in lightweight, isolated containers. It helps developers and system administrators
+deploy applications quickly and consistently across different environments.
+
+What is docker container?
+A Docker container is a lightweight, standalone, and executable package that includes everything needed to run an application.Containers run consistently across different 
+environments, making them a great choice for development, testing, and production.
+
+What is docker images?
+A Docker image is a blueprint for creating Docker containers.
